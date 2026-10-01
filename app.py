@@ -2,8 +2,7 @@ import streamlit as st
 
 # Cấu hình trang
 st.set_page_config(page_title="Hóa Đơn Trà Sữa", page_icon="🧋", layout="centered")
-
-# Tiêu đề ứng dụng
+st.image("quang-cao-tra-sua-phela.jpg")
 st.title("🧋 Ứng Dụng Tính Hóa Đơn Trà Sữa")
 st.write("Vui lòng chọn thông tin đơn hàng bên dưới:")
 
