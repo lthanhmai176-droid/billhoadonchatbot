@@ -34,8 +34,8 @@ with col1:
     so_luong = st.number_input("2. Số lượng:", min_value=1, max_value=50, value=1, step=1)
 
 with col2:
-    muc_duong = st.radio("3. Mức độ đường:", ["100%", "70%", "0%"], horizontal=True)
-    muc_da = st.radio("4. Mức độ đá:", ["100%", "70%", "0%"], horizontal=True)
+    muc_duong = st.radio("3. Mức độ đường:", ["100%", "70%","50%", "0%"], horizontal=True)
+    muc_da = st.radio("4. Mức độ đá:", ["100%", "70%","50%", "0%"], horizontal=True)
 
 toppings_chon = st.multiselect("5. Chọn thêm Topping (có thể chọn nhiều):", list(MENU_TOPPING.keys()))
 
